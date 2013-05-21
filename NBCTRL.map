@@ -1,0 +1,1358 @@
+Archive member included because of file (symbol)
+
+C:\nburn\lib\SBL2E.a(bsp.o)   ./main.o (SetIntc0)
+C:\nburn\lib\SBL2E.a(magic.o)
+                              C:\nburn\lib\SBL2E.a(bsp.o) (pMagic)
+C:\nburn\lib\SBL2E.a(atexit.o)
+                              c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\nb-crt0.o (atexit)
+C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+                              ./main.o (InitIRQUart)
+C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+                              ./main.o (IRQ_writestring)
+C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+                              ./main.o (IRQ_writechar)
+C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+                              ./main.o (IRQ_getchar)
+C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+                              ./main.o (IRQ_charavail)
+C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+                              ./main.o (IRQ_assign_stdio)
+C:\nburn\lib\SBL2E.a(pins.o)  ./main.o (PinIO::set(unsigned char))
+C:\nburn\lib\SBL2E.a(fec_core.o)
+                              C:\nburn\lib\SBL2E.a(irq_serial_init.o) (NetActionMask)
+C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+                              C:\nburn\lib\SBL2E.a(irq_serial_stdio.o) (IRQ_close)
+C:\nburn\lib\SBL2E.a(pin_map.o)
+                              C:\nburn\lib\SBL2E.a(pins.o) (MAX_PIN)
+C:\nburn\lib\NetBurner_sc.a(ucosmcfa.o)
+                              C:\nburn\lib\SBL2E.a(bsp.o) (OSCtxSw)
+C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+                              ./main.o (OSTaskCreate)
+C:\nburn\lib\NetBurner_sc.a(ucos.o)
+                              C:\nburn\lib\NetBurner_sc.a(ucosmcfa.o) (OSTCBCur)
+C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+                              C:\nburn\lib\SBL2E.a(irq_serial_read.o) (critical_count)
+C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+                              ./main.o (OSTimeDly)
+C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+                              ./main.o (OSChangePrio)
+C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+                              C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o) (OSTaskDelete)
+C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+                              ./main.o (OSSemInit)
+C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+                              ./main.o (OSSemPend)
+C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+                              ./pitr_sem.o (OSSemPost)
+C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+                              C:\nburn\lib\NetBurner_sc.a(ucosmain.o) (bUcosStarted)
+C:\nburn\lib\NetBurner_sc.a(fileio.o)
+                              C:\nburn\lib\NetBurner_sc.a(ucosmain.o) (lioctl)
+C:\nburn\lib\NetBurner_sc.a(main.o)
+                              c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\nb-crt0.o (main)
+C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+                              ./main.o (EnableSmartTraps)
+C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+                              ./main.o (EnableAutoUpdate)
+C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+                              ./main.o (InitializeStack)
+C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+                              ./main.o (iprintf)
+C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+                              C:\nburn\lib\NetBurner_sc.a(ucos_locks.o) (OSCritInit)
+C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+                              C:\nburn\lib\NetBurner_sc.a(ucos_locks.o) (OSCritEnter)
+C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+                              C:\nburn\lib\NetBurner_sc.a(ucos_locks.o) (OSCritLeave)
+C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+                              C:\nburn\lib\NetBurner_sc.a(ipcore.o) (StartDHCP)
+C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+                              C:\nburn\lib\NetBurner_sc.a(ipcore.o) (ScratchGuardSem)
+C:\nburn\lib\SBL2E.a(localio.o)
+                              C:\nburn\lib\NetBurner_sc.a(fileio.o) (LocalInByte)
+C:\nburn\lib\SBL2E.a(userflash.o)
+                              C:\nburn\lib\NetBurner_sc.a(ipcore.o) (FlashProgram)
+C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+                              C:\nburn\lib\NetBurner_sc.a(autoupdate.o) (LaunchUpdater(UpdateRequestDataRecord*, unsigned long))
+C:\nburn\lib\SBL2E.a(userflashasm.o)
+                              C:\nburn\lib\SBL2E.a(userflash.o) (do_flash_start)
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_double.o)
+                              ./main.o (__adddf3)
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_float.o)
+                              ./main.o (__addsf3)
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_floatex.o)
+                              c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_double.o) (_fpCCR)
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_gtsf2.o)
+                              ./main.o (__gtsf2)
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_ltsf2.o)
+                              ./main.o (__ltsf2)
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_fixunssfsi.o)
+                              ./main.o (__fixunssfsi)
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(fpgnulib.o)
+                              ./main.o (__truncdfsf2)
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_gesf2.o)
+                              c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libc.a(lib_a-strlen.o)
+                              C:\nburn\lib\NetBurner_sc.a(ipcore.o) (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+TimeTick            0x4               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+OSLockNesting       0x1               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+OSRunning           0x1               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+bUcosStarted        0x4               C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+errno               0x4               C:\nburn\lib\SBL2E.a(bsp.o)
+TERR_REGISTER       0x1               C:\nburn\lib\SBL2E.a(bsp.o)
+OSTCBList           0x4               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+heap_ptr            0x4               C:\nburn\lib\SBL2E.a(bsp.o)
+OSRdyGroup          0x4               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+Secs                0x4               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+OSTCBFreeList       0x4               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+DEF_UART            0x4               C:\nburn\lib\SBL2E.a(bsp.o)
+OSIdleTaskStk       0x200             C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+OSShowTasksOnLeds   0x1               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+OSISRLevel          0x2               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+IoExpands           0xe0              C:\nburn\lib\NetBurner_sc.a(fileio.o)
+OSTCBHighRdy        0x4               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+TheBuffer           0x400             C:\nburn\lib\SBL2E.a(userflash.o)
+MainStk             0xc48             C:\nburn\lib\NetBurner_sc.a(main.o)
+CPU_CLOCK           0x4               C:\nburn\lib\SBL2E.a(bsp.o)
+critical_count      0x4               C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+pMagic              0x4               C:\nburn\lib\SBL2E.a(magic.o)
+OSIntNesting        0x1               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+nIsrCount           0x4               C:\nburn\lib\SBL2E.a(bsp.o)
+OSTCBCur            0x4               C:\nburn\lib\NetBurner_sc.a(ucos.o)
+OSTCBTbl            0xc8              C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+OSTCBPrioTbl        0x84              C:\nburn\lib\NetBurner_sc.a(ucos.o)
+
+Discarded input sections
+
+ IsLocal        0x00000000        0x0 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0xffc04010         0x00038000         xr
+ram              0x20000400         0x00007b00         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\nb-crt0.o
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+LOAD C:\nburn\SBL2E\lib\sys.ld
+                0x20000000                vector_base = 0x20000000
+                0x20008000                end_of_ram = 0x20008000
+                0x40000000                sim = 0x40000000
+                0xffc04000                apprecord = 0xffc04000
+                0x20000004                CLOCK_FREQ = 0x20000004
+                0xffc3e000                UserParamBase = 0xffc3e000
+                0xffc3c000                gConfigRec = 0xffc3c000
+LOAD ./main.o
+LOAD ./pitr_sem.o
+START GROUP
+LOAD C:\nburn\lib\SBL2E.a
+LOAD C:\nburn\lib\NetBurner_sc.a
+END GROUP
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libstdc++.a
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libm.a
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libc.a
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtend.o
+START GROUP
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libc.a
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a
+LOAD c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libm.a
+END GROUP
+                0x00000000                __DYNAMIC = 0x0
+                0x20007ffc                PROVIDE (__stack, 0x20007ffc)
+                0x00000000                PROVIDE (hardware_init_hook, 0x0)
+                0x00000000                PROVIDE (_hardware_init_hook, 0x0)
+                0x00000000                PROVIDE (software_init_hook, 0x0)
+                0x00000000                PROVIDE (_software_init_hook, 0x0)
+
+.text           0xffc04010     0xd040
+ *(.text)
+ .text          0xffc04010       0x94 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\nb-crt0.o
+                0xffc04010                start
+ .text          0xffc040a4       0x9c c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+ .text          0xffc04140     0x130a ./main.o
+                0xffc04b8c                Sample(int, int)
+                0xffc04730                LCD_Init()
+                0xffc04d0c                ReadSwitches()
+                0xffc04774                LCD_XY(unsigned char, unsigned char)
+                0xffc04360                writenib(int, unsigned short)
+                0xffc04ec4                UserMain
+                0xffc0431c                ProcessXbeeChar(unsigned char)
+                0xffc041a4                real_AD_Done
+                0xffc047c4                SyncScreen(void*)
+                0xffc04d9c                ExADInit()
+                0xffc04918                LCD_Home()
+                0xffc04594                writepot(int, unsigned long, unsigned long, unsigned long)
+                0xffc04140                tdlay()
+                0xffc04154                AD_Done
+                0xffc04308                shutdownfunc()
+                0xffc048e8                LCD_Cls()
+                0xffc04a10                Switch16()
+                0xffc04948                EnableISRAD()
+                0xffc04a68                SR8(unsigned char)
+                0xffc04150                fake_AD_Done()
+                0xffc043a8                writeanalog(int, unsigned long, unsigned long, unsigned long)
+ *fill*         0xffc0544a        0x2 00
+ .text          0xffc0544c      0x112 ./pitr_sem.o
+                0xffc0544c                fake_my_pitr_func()
+                0xffc054a0                PiterSem(os_sem*, int)
+                0xffc05450                my_pitr_func
+                0xffc05528                real_my_pitr_func
+ *fill*         0xffc0555e        0x2 00
+ .text          0xffc05560      0x3a2 C:\nburn\lib\SBL2E.a(bsp.o)
+                0xffc0567c                SetIntc1
+                0xffc057e4                _sbrk_r
+                0xffc05888                HardwareSetup
+                0xffc05764                DisableCache
+                0xffc05830                spaceleft
+                0xffc05564                Tick52234
+                0xffc05868                ForceReboot
+                0xffc05560                xTick
+                0xffc05778                EnableCache
+                0xffc05584                SetIntc0
+ *fill*         0xffc05902        0x2 00
+ .text          0xffc05904       0x54 C:\nburn\lib\SBL2E.a(magic.o)
+                0xffc05904                AsmHolderFoo
+                0xffc05940                MagicLoad
+                0xffc05908                asm_magicload
+                0xffc0592c                EnableSerialUpdate
+ .text          0xffc05958        0xa C:\nburn\lib\SBL2E.a(atexit.o)
+                0xffc05958                atexit
+ *fill*         0xffc05962        0x2 00
+ .text          0xffc05964      0x5d2 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+                0xffc05f00                real_SER0_ISR
+                0xffc05a0c                fake_SER0_ISR()
+                0xffc05964                fake_SER2_ISR()
+                0xffc059bc                SER1_ISR
+                0xffc05a60                InitIRQUart
+                0xffc05d20                DoSerIsr(int)
+                0xffc059b8                fake_SER1_ISR()
+                0xffc05f24                real_SER2_ISR
+                0xffc05f10                real_SER1_ISR
+                0xffc05a10                SER0_ISR
+                0xffc05968                SER2_ISR
+ *fill*         0xffc05f36        0x2 00
+ .text          0xffc05f38       0x34 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+                0xffc05f38                IRQ_writestring
+ .text          0xffc05f6c       0xaa C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+                0xffc05f6c                IRQ_writechar
+ *fill*         0xffc06016        0x2 00
+ .text          0xffc06018       0xae C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+                0xffc06018                IRQ_getchar
+ *fill*         0xffc060c6        0x2 00
+ .text          0xffc060c8       0x50 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+                0xffc060c8                IRQ_charavail
+ .text          0xffc06118      0x19a C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+                0xffc06150                IRQ_assign_stdio
+                0xffc06258                irq_stdio_read(int, char*, int)
+                0xffc06180                IRQ_assign_sterr
+                0xffc06118                SetIRQFDIo(int, int)
+                0xffc061d8                irq_stdio_write(int, char const*, int)
+                0xffc06194                irq_stdio_close(int)
+ *fill*         0xffc062b2        0x2 00
+ .text          0xffc062b4     0x18e8 C:\nburn\lib\SBL2E.a(pins.o)
+                0xffc07b68                PinIOArray::operator[](int)
+                0xffc066a0                PinIO::set(unsigned char)
+                0xffc0749c                PinIO::function(int)
+                0xffc07b90                CPUPinIOArray::operator[](int)
+                0xffc062b4                PinIO::drive()
+                0xffc06e8c                PinIO::read()
+ .text          0xffc07b9c      0xab0 C:\nburn\lib\SBL2E.a(fec_core.o)
+                0xffc07e98                Force10BT()
+                0xffc07d20                fake_EthRxIsr()
+                0xffc082c8                ResetEnet()
+                0xffc07dc8                SetMII(unsigned char, unsigned short)
+                0xffc07f3c                Eth_Transmit
+                0xffc07efc                ForceAuto()
+                0xffc08604                real_EthRxIsr
+                0xffc07d24                EthRxIsr
+                0xffc07d78                EthTxIsr
+                0xffc07fe8                NetWorkTask(void*)
+                0xffc07cb0                GetPendingMII(unsigned char)
+                0xffc07d74                fake_EthTxIsr()
+                0xffc07b9c                ClearPendingMII()
+                0xffc07c08                StartPendingMII(unsigned char)
+                0xffc085a4                real_EthTxIsr
+                0xffc07ec8                Force100BT()
+ .text          0xffc0864c       0x38 C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+                0xffc0864c                IRQ_close
+ .text          0xffc08684        0x0 C:\nburn\lib\SBL2E.a(pin_map.o)
+ .text          0xffc08684      0x136 C:\nburn\lib\NetBurner_sc.a(ucosmcfa.o)
+                0xffc0873e                OSDebugTraceHalt
+                0xffc08684                OSStartHighRdy
+                0xffc08742                memcpy
+                0xffc08742                fmemcpy
+                0xffc0869c                OSCtxSw
+                0xffc086c4                OSIntCtxSw
+                0xffc086ea                OSTickISR
+                0xffc08720                OSSetupVBR
+                0xffc0879c                GetSR_IntLevel
+                0xffc087a0                SetSR_IntLevel
+ *fill*         0xffc087ba        0x2 00
+ .text          0xffc087bc      0x2ba C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+                0xffc087bc                OSTaskCreate
+                0xffc089ac                OSTCBInit
+ *fill*         0xffc08a76        0x2 00
+ .text          0xffc08a78      0x350 C:\nburn\lib\NetBurner_sc.a(ucos.o)
+                0xffc08a7c                GetHighFrom
+                0xffc08c52                UCOSWAITS_HERE
+                0xffc08c60                OSIntExit
+                0xffc08c04                OSSched
+                0xffc08d98                OSTCBGetFree
+                0xffc08bc0                OSStart
+                0xffc08cc8                OSTimeTick
+                0xffc08a88                OSInit
+                0xffc08a78                FF1Holder
+ .text          0xffc08dc8       0x90 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+                0xffc08dc8                UCosBegin
+                0xffc08e28                UCosSetup
+ .text          0xffc08e58       0x3a C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+                0xffc08e58                OSTimeDly
+ *fill*         0xffc08e92        0x2 00
+ .text          0xffc08e94       0x96 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+                0xffc08e94                OSChangePrio
+ *fill*         0xffc08f2a        0x2 00
+ .text          0xffc08f2c       0xa4 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+                0xffc08f2c                OSTaskDelete
+ .text          0xffc08fd0       0x38 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+                0xffc08fd0                OSSemInit
+ .text          0xffc09008       0xbc C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+                0xffc09008                OSSemPend
+ .text          0xffc090c4       0xa8 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+                0xffc090c4                OSSemPost
+ .text          0xffc0916c      0x124 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+                0xffc0920c                __malloc_unlock
+                0xffc0916c                __crit_inits
+                0xffc091cc                balloc_lock
+                0xffc09190                balloc_unlock
+                0xffc09250                __malloc_lock
+ .text          0xffc09290      0x3c2 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+                0xffc09320                isatty
+                0xffc0932c                lseek
+                0xffc09544                write
+                0xffc09338                fstat
+                0xffc09508                rawwrite
+                0xffc0936c                stdioinbyte
+                0xffc09290                lioctl
+                0xffc0937c                read
+                0xffc09314                open
+                0xffc09360                charavail
+                0xffc09354                fcntl
+                0xffc092ec                close
+ *fill*         0xffc09652        0x2 00
+ .text          0xffc09654       0x96 C:\nburn\lib\NetBurner_sc.a(main.o)
+                0xffc0968c                main
+                0xffc09654                __do_global_ctors
+ *fill*         0xffc096ea        0x2 00
+ .text          0xffc096ec     0x10b6 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+                0xffc0983c                WalkStack(os_tcb*, unsigned long, unsigned long)
+                0xffc098c4                Local_ShowTaskName(unsigned char)
+                0xffc09760                Local_OutHex
+                0xffc09bd0                smart_trap_asm
+                0xffc099f0                Local_OutTCBState(os_tcb*, unsigned long, unsigned long)
+                0xffc096ec                SafeRead(unsigned long)
+                0xffc0980c                Local_OutString
+                0xffc09bc8                Smart_Trap_Holder()
+                0xffc09710                EnableSmartTraps
+                0xffc097f4                Local_OutHexLong
+ *fill*         0xffc0a7a2        0x2 00
+ .text          0xffc0a7a4      0x262 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+                0xffc0a7a4                EnableAutoUpdate
+                0xffc0a7b8                ReplyWithRecord(UpdateRequestDataRecord*, int)
+                0xffc0a7f8                ProcessAutoUpdateStart(EFRAME*)
+ *fill*         0xffc0aa06        0x2 00
+ .text          0xffc0aa08      0xf0e C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+                0xffc0aae8                InitializeStack
+                0xffc0aaa0                AddUdpData(UDPPKT*, unsigned char const*, unsigned short)
+                0xffc0aa74                GetData(IPPKT*)
+                0xffc0b6f0                ProcessArp(EFRAME*)
+                0xffc0b2cc                process_udp(EFRAME*, IPPKT*)
+                0xffc0b7e4                ProcessIpPacket(EFRAME*)
+                0xffc0aa08                GetSum(unsigned short*, unsigned short)
+                0xffc0b420                process_icmp(EFRAME*, IPPKT*)
+                0xffc0ad30                SendUDPBackTo(EFRAME*, os_sem*)
+                0xffc0b400                FixHeaderAndSendBack(EFRAME*, os_sem*)
+                0xffc0ac30                FixHeaderAndSendTo(EFRAME*, MACADR*, os_sem*)
+                0xffc0b4dc                SendUdpTo(EFRAME*, unsigned long, MACADR&, os_sem*)
+                0xffc0af2c                ProcessIDPacket(UDPPKT*, IPPKT*, EFRAME*)
+ *fill*         0xffc0b916        0x2 00
+ .text          0xffc0b918     0x1166 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+                0xffc0bd64                NormalGetNextParamFunction(void*)
+                0xffc0bd1c                leadzero(int, int, int, void (*)(void*, char), void*, int&)
+                0xffc0c9d0                putachar(void*, char)
+                0xffc0b918                decimallen(unsigned long)
+                0xffc0ba08                octlen(unsigned long)
+                0xffc0ba9c                binlen(unsigned long)
+                0xffc0c9b4                NB_internal_iprintf(void (*)(void*, char), void*, unsigned long*)
+                0xffc0bd78                NB_internal_iprintf_ind(void (*)(void*, char), void*, unsigned long (*)(void*), void*)
+                0xffc0bc7c                prespace(int, int, int, void (*)(void*, char), void*, int&)
+                0xffc0ca68                iprintf
+                0xffc0b99c                hexlen(unsigned long)
+                0xffc0bccc                postspace(int, int, int, void (*)(void*, char), void*, int&)
+ *fill*         0xffc0ca7e        0x2 00
+ .text          0xffc0ca80       0x18 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+                0xffc0ca80                OSCritInit
+ .text          0xffc0ca98       0xd0 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+                0xffc0ca98                OSCritEnter
+ .text          0xffc0cb68       0xcc C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+                0xffc0cb68                OSCritLeave
+ .text          0xffc0cc34     0x12da C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+                0xffc0ccc4                GetOptionData(dhcp_msg*, unsigned char)
+                0xffc0cc88                TestMac(unsigned char*, unsigned char const*)
+                0xffc0cd34                StartDHCP
+                0xffc0dd98                MyProcessDhcpPackets(EFRAME*)
+                0xffc0d704                SendDhcpRequestMsg(dhcp_msg*)
+                0xffc0d3c4                ReTransmitPacket()
+                0xffc0cd74                SendDhcpRenewMsg()
+                0xffc0cc34                ValidDhcpMsg(dhcp_msg*)
+                0xffc0d460                SetDhcpConfig(dhcp_msg*)
+                0xffc0d438                RenewDHCP()
+                0xffc0cf4c                SendDhcpDiscoverMsg()
+                0xffc0d414                RebindDHCP()
+                0xffc0dc1c                DhcpTick()
+ *fill*         0xffc0df0e        0x2 00
+ .text          0xffc0df10       0x46 C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+                0xffc0df28                ReserveScratchBlock
+                0xffc0df10                ReleaseScratchBlock
+ *fill*         0xffc0df56        0x2 00
+ .text          0xffc0df58       0xa6 C:\nburn\lib\SBL2E.a(localio.o)
+                0xffc0df58                LocalInByte
+                0xffc0dfcc                outbyte
+                0xffc0df84                LocalOutByte
+                0xffc0dfe0                LocalCharAvail
+ *fill*         0xffc0dffe        0x2 00
+ .text          0xffc0e000       0xba C:\nburn\lib\SBL2E.a(userflash.o)
+                0xffc0e0ac                GetUserParameters
+                0xffc0e000                FlashProgram
+                0xffc0e04c                SaveUserParameters
+ *fill*         0xffc0e0ba        0x2 00
+ .text          0xffc0e0bc      0xdb4 C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+                0xffc0e0bc                HolderFunctionNeverCalled()
+                0xffc0e154                CCodeUpdater
+                0xffc0edb4                LaunchUpdater(UpdateRequestDataRecord*, unsigned long)
+                0xffc0e0c0                AsmCoreUpdater
+                0xffc0e0f8                PreCoreUpdater
+                0xffc0edaa                EndUpdater
+ .text          0xffc0ee70       0xde C:\nburn\lib\SBL2E.a(userflashasm.o)
+                0xffc0eef4                erase_test
+                0xffc0ef4e                do_flash_end
+                0xffc0ee70                do_flash_start
+ *fill*         0xffc0ef4e        0x2 00
+ .text          0xffc0ef50      0xba0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_double.o)
+                0xffc0fa4e                __cmpdf2
+                0xffc0efb0                __adddf3
+                0xffc0f918                __negdf2
+                0xffc0f628                __divdf3
+                0xffc0f976                __cmpdf2_internal
+                0xffc0f44c                __muldf3
+                0xffc0efaa                __subdf3
+ .text          0xffc0faf0      0x7ca c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_float.o)
+                0xffc0ff62                __divsf3
+                0xffc0fb38                __subsf3
+                0xffc10156                __negsf2
+                0xffc10248                __cmpsf2
+                0xffc101a8                __cmpsf2_internal
+                0xffc0fe20                __mulsf3
+                0xffc0fb3e                __addsf3
+ *fill*         0xffc102ba        0x2 00
+ .text          0xffc102bc       0x74 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_floatex.o)
+                0xffc102c8                $_exception_handler
+                0xffc102bc                __clear_sticky_bit
+ .text          0xffc10330       0x1a c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_gtsf2.o)
+                0xffc10330                __gtsf2
+ *fill*         0xffc1034a        0x2 00
+ .text          0xffc1034c       0x1a c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_ltsf2.o)
+                0xffc1034c                __ltsf2
+ *fill*         0xffc10366        0x2 00
+ .text          0xffc10368       0x58 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_fixunssfsi.o)
+                0xffc10368                __fixunssfsi
+ .text          0xffc103c0      0x49a c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(fpgnulib.o)
+                0xffc10840                __fixsfsi
+                0xffc10528                __floatsidf
+                0xffc105fe                __extendsfdf2
+                0xffc104b6                __floatunsidf
+                0xffc107c0                __fixdfsi
+                0xffc105e4                __floatsisf
+                0xffc10698                __truncdfsf2
+                0xffc103c0                __unordsf2
+                0xffc105ca                __floatunsisf
+                0xffc10422                __unorddf2
+ *fill*         0xffc1085a        0x2 00
+ .text          0xffc1085c       0x1a c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_gesf2.o)
+                0xffc1085c                __gesf2
+ *fill*         0xffc10876        0x2 00
+ .text          0xffc10878       0x1a c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libc.a(lib_a-strlen.o)
+                0xffc10878                strlen
+ *fill*         0xffc10892        0x2 00
+ .text          0xffc10894       0x32 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtend.o
+                0xffc108d0                . = ALIGN (0x10)
+ *fill*         0xffc108c6        0xa 00
+ *(.text.*)
+ .text.IsLocal  0xffc108d0       0x32 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+                0xffc108d0                IsLocal
+                0xffc10910                . = ALIGN (0x10)
+ *fill*         0xffc10902        0xe 00
+ *(.eh_frame)
+ .eh_frame      0xffc10910        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+ .eh_frame      0xffc10910        0x4 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtend.o
+                0xffc10920                . = ALIGN (0x10)
+ *fill*         0xffc10914        0xc 00
+ *(.gnu.linkonce.t.*)
+                0xffc10920                . = ALIGN (0x4)
+                0xffc10920                __CTOR_LIST__ = .
+                0xffc10920                __CTOR_LIST__ = .
+                0xffc10920        0x4 LONG 0x2 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ *(.ctors)
+ .ctors         0xffc10924        0x4 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+ .ctors         0xffc10928        0x4 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtend.o
+                0xffc1092c        0x4 LONG 0x0
+                0xffc10930                __CTOR_END__ = .
+                0xffc10930                __DTOR_LIST__ = .
+                0xffc10930                ___DTOR_LIST__ = .
+                0xffc10930        0x4 LONG 0x2 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+ *(.dtors)
+ .dtors         0xffc10934        0x4 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+ .dtors         0xffc10938        0x4 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtend.o
+                0xffc1093c        0x4 LONG 0x0
+                0xffc10940                __DTOR_END__ = .
+ *(.rodata)
+ .rodata        0xffc10940       0x2c ./main.o
+ .rodata        0xffc1096c       0x48 C:\nburn\lib\SBL2E.a(pin_map.o)
+                0xffc1096c                MAX_PIN
+                0xffc10970                PinMap
+ .rodata        0xffc109b4        0x2 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ *(.rodata.*)
+ .rodata.str1.1
+                0xffc109b6       0x81 ./main.o
+                                 0x9b (size before relaxing)
+ .rodata.str1.1
+                0xffc10a37        0x6 C:\nburn\lib\SBL2E.a(bsp.o)
+ .rodata.str1.1
+                0xffc10a3d        0x3 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+                                  0x6 (size before relaxing)
+ .rodata.str1.1
+                0xffc10a40      0x501 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+                                0x516 (size before relaxing)
+ .rodata.str1.1
+                0xffc10f41       0x16 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .rodata.str1.1
+                0xffc10f57       0x5b C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .rodata.str1.1
+                0xffc10fb2        0x9 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .rodata.str1.1
+                0xffc10fbb       0x66 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ *(.gnu.linkonce.*)
+ *(.gcc_except_table)
+                0xffc11024                . = ALIGN (0x4)
+ *fill*         0xffc11021        0x3 00
+                0xffc11024                __INIT_SECTION__ = .
+                0xffc11024        0x4 LONG 0x4e560000
+ *(.init)
+ .init          0xffc11028        0x6 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+ .init          0xffc1102e        0x6 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtend.o
+                0xffc11034        0x2 SHORT 0x4e5e
+                0xffc11036        0x2 SHORT 0x4e75
+                0xffc11038                . = ALIGN (0x4)
+                0xffc11038                __FINI_SECTION__ = .
+                0xffc11038        0x4 LONG 0x4e560000
+ *(.fini)
+ .fini          0xffc1103c        0x6 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+                0xffc11042        0x2 SHORT 0x4e5e
+                0xffc11044        0x2 SHORT 0x4e75
+ *(.lit)
+                0xffc11050                . = ALIGN (0x10)
+ *fill*         0xffc11046        0xa 00
+                0xffc11050                _etext = .
+                0xffc11050                etext = .
+
+.data           0x20000400       0x30 load address 0xffc11050
+                0x20000400                copy_start = .
+ *(.shdata)
+ *(.data)
+ .data          0x20000400        0x4 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\nb-crt0.o
+ .data          0x20000404        0x8 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+                0x20000404                __dso_handle
+ .data          0x2000040c        0x4 ./main.o
+                0x2000040c                AppName
+ .data          0x20000410        0x0 ./pitr_sem.o
+ .data          0x20000410        0x4 C:\nburn\lib\SBL2E.a(bsp.o)
+                0x20000410                PlatformName
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(magic.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(atexit.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(pins.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(fec_core.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(pin_map.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucosmcfa.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(main.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ .data          0x20000414        0x0 C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(localio.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(userflash.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+ .data          0x20000414        0x0 C:\nburn\lib\SBL2E.a(userflashasm.o)
+ .data          0x20000414        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_double.o)
+ .data          0x20000414        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_float.o)
+ .data          0x20000414       0x1c c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_floatex.o)
+                0x20000414                _fpCCR
+ .data          0x20000430        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_gtsf2.o)
+ .data          0x20000430        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_ltsf2.o)
+ .data          0x20000430        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_fixunssfsi.o)
+ .data          0x20000430        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(fpgnulib.o)
+ .data          0x20000430        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_gesf2.o)
+ .data          0x20000430        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libc.a(lib_a-strlen.o)
+ .data          0x20000430        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtend.o
+                0x20000430                . = ALIGN (0x10)
+                0x20000430                _edata = .
+                0x20000430                copy_end = .
+
+.jcr            0x20000430        0x4 load address 0xffc11080
+ .jcr           0x20000430        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+ .jcr           0x20000430        0x4 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtend.o
+
+.bss            0x20000440     0x42ec load address 0xffc11090
+                0x20000440                . = ALIGN (0x4)
+ *(.firstdata)
+ .firstdata     0x20000440     0x10c0 C:\nburn\lib\SBL2E.a(fec_core.o)
+                0x20000440                fec_buffers
+ .firstdata     0x20001500      0xc48 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+                0x20001500                func_NetWorkTask_Stk
+                0x20002148                . = ALIGN (0x4)
+                0x20002148                __bss_start = .
+ *(.shbss)
+ *(.bss)
+ .bss           0x20002148        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\nb-crt0.o
+ .bss           0x20002148       0x1a c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtbegin.o
+ *fill*         0x20002162        0x2 00
+ .bss           0x20002164      0x491 ./main.o
+                0x200021aa                Switches
+                0x2000219a                N
+                0x20002196                Rudder
+                0x200021ae                Screen
+                0x2000218e                Elevator
+                0x20002166                nADC
+                0x2000218a                Throttle
+                0x20002164                bDoingAA
+                0x20002192                Alieron
+                0x2000216a                ADSum
+                0x200021ce                SentScreen
+ *fill*         0x200025f5        0x3 00
+ .bss           0x200025f8        0xa ./pitr_sem.o
+                0x200025f8                Pit_Count
+ *fill*         0x20002602        0x2 00
+ .bss           0x20002604        0x0 C:\nburn\lib\SBL2E.a(bsp.o)
+ .bss           0x20002604        0x0 C:\nburn\lib\SBL2E.a(magic.o)
+ .bss           0x20002604        0x0 C:\nburn\lib\SBL2E.a(atexit.o)
+ .bss           0x20002604       0xe4 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+                0x200026df                serial2_tx_buffer
+                0x200026ca                serial1_tx_buffer
+                0x200026ba                serial1_rx_buffer
+                0x200026da                serial2_rx_buffer
+                0x2000269a                serial0_rx_buffer
+                0x200026aa                serial0_tx_buffer
+                0x20002604                IRQ_SerialRecords
+ .bss           0x200026e8        0x0 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .bss           0x200026e8        0x0 C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .bss           0x200026e8        0x0 C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .bss           0x200026e8        0x0 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .bss           0x200026e8        0x0 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .bss           0x200026e8        0x2 C:\nburn\lib\SBL2E.a(pins.o)
+                0x200026e8                Pins
+                0x200026e9                CPU_Pins
+ *fill*         0x200026ea        0x2 00
+ .bss           0x200026ec       0x2c C:\nburn\lib\SBL2E.a(fec_core.o)
+                0x200026f2                dwPendingMIIReadStatus
+                0x200026fe                EthTxAckSem
+                0x200026f6                EthSemSend
+                0x20002702                NetActionSem
+                0x2000270e                pSerialPump
+                0x2000270a                DONT_HANG
+                0x200026f0                bEtherLink
+                0x200026f1                bEtherSpeed
+                0x200026ec                NetActionMask
+ .bss           0x20002718        0x0 C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\SBL2E.a(pin_map.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucosmcfa.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .bss           0x20002718        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .bss           0x20002718        0xe C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ *fill*         0x20002726        0x2 00
+ .bss           0x20002728       0x18 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .bss           0x20002740        0x0 C:\nburn\lib\NetBurner_sc.a(main.o)
+ .bss           0x20002740      0x406 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ *fill*         0x20002b46        0x2 00
+ .bss           0x20002b48       0x10 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+                0x20002b48                update_shutdown_func
+ .bss           0x20002b58       0x4a C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+                0x20002b60                MyIpGateway
+                0x20002b58                MyIpAddr
+                0x20002b9c                upAuthFunc
+                0x20002b74                ImmediateTxSem
+                0x20002b98                pTCPProcessFunction
+                0x20002b8c                pTaskProcessFunction
+                0x20002b7c                pArpResponseFunc
+                0x20002b5c                MyIpMask
+                0x20002b94                pDHCPProcessFunction
+                0x20002b68                ENET_BCAST
+                0x20002ba0                wGlobalPktId
+                0x20002b6e                ENET_ZERO
+                0x20002b80                pMultiCastFunc
+                0x20002b84                pIcmpResponseFunc
+                0x20002b90                pAutoUpdateProcessFunction
+                0x20002b64                MyIpDNS
+                0x20002b88                pUserUdpProcessFunction
+ *fill*         0x20002ba2        0x2 00
+ .bss           0x20002ba4        0x5 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+                0x20002ba4                pPrintfFloatFunc
+ *fill*         0x20002ba9        0x3 00
+ .bss           0x20002bac        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .bss           0x20002bac        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .bss           0x20002bac        0x0 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .bss           0x20002bac       0x68 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+                0x20002bdc                DhcpRebindTime
+                0x20002bd0                DhcpLeaseStart
+                0x20002bd4                DhcpLeaseTime
+                0x20002bac                bDontSetDhcp
+                0x20002bb6                DhcpServerIP
+                0x20002be8                pDHCPOfferName
+                0x20002bba                DhcpRelayIP
+                0x20002bae                DhcpClientIP
+                0x20002be0                DhcpInterface
+                0x20002bc6                DhcpResponseMac
+                0x20002bd8                DhcpRenewTime
+                0x20002bb2                DhcpClientMask
+                0x20002be4                DHCPDiscoverSeconds
+                0x20002bcc                DhcpLeaseTimer
+                0x20002bc2                DhcpDNSIP
+                0x20002bbe                DhcpRouterIP
+ *fill*         0x20002c14        0xc 00
+ .bss           0x20002c20      0x650 C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+                0x20002c20                ScratchGuardSem
+                0x20002c28                scratch_task
+ .bss           0x20003270        0x0 C:\nburn\lib\SBL2E.a(localio.o)
+ .bss           0x20003270        0x0 C:\nburn\lib\SBL2E.a(userflash.o)
+ .bss           0x20003270        0x0 C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+ .bss           0x20003270        0x0 C:\nburn\lib\SBL2E.a(userflashasm.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_double.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_float.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_floatex.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_gtsf2.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_ltsf2.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_fixunssfsi.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(fpgnulib.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_gesf2.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libc.a(lib_a-strlen.o)
+ .bss           0x20003270        0x0 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213/crtend.o
+ *(COMMON)
+ COMMON         0x20003270       0x16 C:\nburn\lib\SBL2E.a(bsp.o)
+                0x20003270                errno
+                0x20003274                TERR_REGISTER
+                0x20003276                heap_ptr
+                0x2000327a                DEF_UART
+                0x2000327e                CPU_CLOCK
+                0x20003282                nIsrCount
+ COMMON         0x20003286        0x4 C:\nburn\lib\SBL2E.a(magic.o)
+                0x20003286                pMagic
+ COMMON         0x2000328a       0xa8 C:\nburn\lib\NetBurner_sc.a(ucos.o)
+                0x2000328a                TimeTick
+                0x2000328e                OSLockNesting
+                0x2000328f                OSRunning
+                0x20003290                OSTCBList
+                0x20003294                OSRdyGroup
+                0x20003298                Secs
+                0x2000329c                OSTCBFreeList
+                0x200032a0                OSShowTasksOnLeds
+                0x200032a2                OSISRLevel
+                0x200032a4                OSTCBHighRdy
+                0x200032a8                OSIntNesting
+                0x200032aa                OSTCBCur
+                0x200032ae                OSTCBPrioTbl
+ *fill*         0x20003332        0x2 00
+ COMMON         0x20003334      0x2cc C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+                0x20003334                OSIdleTaskStk
+                0x20003534                critical_count
+                0x20003538                OSTCBTbl
+ COMMON         0x20003600        0x4 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+                0x20003600                bUcosStarted
+ COMMON         0x20003604       0xe0 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+                0x20003604                IoExpands
+ COMMON         0x200036e4      0xc48 C:\nburn\lib\NetBurner_sc.a(main.o)
+                0x200036e4                MainStk
+ COMMON         0x2000432c      0x400 C:\nburn\lib\SBL2E.a(userflash.o)
+                0x2000432c                TheBuffer
+                0x20004730                _end = ALIGN (0x8)
+                0x20004730                __end = _end
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x4c8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 ./main.o
+ .debug_aranges
+                0x00000020       0x20 ./pitr_sem.o
+ .debug_aranges
+                0x00000040       0x20 C:\nburn\lib\SBL2E.a(bsp.o)
+ .debug_aranges
+                0x00000060       0x20 C:\nburn\lib\SBL2E.a(magic.o)
+ .debug_aranges
+                0x00000080       0x20 C:\nburn\lib\SBL2E.a(atexit.o)
+ .debug_aranges
+                0x000000a0       0x20 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .debug_aranges
+                0x000000c0       0x20 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .debug_aranges
+                0x000000e0       0x20 C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .debug_aranges
+                0x00000100       0x20 C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .debug_aranges
+                0x00000120       0x20 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .debug_aranges
+                0x00000140       0x20 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .debug_aranges
+                0x00000160       0x20 C:\nburn\lib\SBL2E.a(pins.o)
+ .debug_aranges
+                0x00000180       0x20 C:\nburn\lib\SBL2E.a(fec_core.o)
+ .debug_aranges
+                0x000001a0       0x20 C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .debug_aranges
+                0x000001c0       0x20 C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .debug_aranges
+                0x000001e0       0x20 C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .debug_aranges
+                0x00000200       0x20 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .debug_aranges
+                0x00000220       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .debug_aranges
+                0x00000240       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .debug_aranges
+                0x00000260       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .debug_aranges
+                0x00000280       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .debug_aranges
+                0x000002a0       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .debug_aranges
+                0x000002c0       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .debug_aranges
+                0x000002e0       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ .debug_aranges
+                0x00000300       0x20 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .debug_aranges
+                0x00000320       0x20 C:\nburn\lib\NetBurner_sc.a(main.o)
+ .debug_aranges
+                0x00000340       0x20 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .debug_aranges
+                0x00000360       0x20 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .debug_aranges
+                0x00000380       0x28 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .debug_aranges
+                0x000003a8       0x20 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .debug_aranges
+                0x000003c8       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .debug_aranges
+                0x000003e8       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .debug_aranges
+                0x00000408       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .debug_aranges
+                0x00000428       0x20 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ .debug_aranges
+                0x00000448       0x20 C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+ .debug_aranges
+                0x00000468       0x20 C:\nburn\lib\SBL2E.a(localio.o)
+ .debug_aranges
+                0x00000488       0x20 C:\nburn\lib\SBL2E.a(userflash.o)
+ .debug_aranges
+                0x000004a8       0x20 C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+
+.debug_pubnames
+                0x00000000     0x14ba
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x1b2 ./main.o
+ .debug_pubnames
+                0x000001b2       0x59 ./pitr_sem.o
+ .debug_pubnames
+                0x0000020b       0xf6 C:\nburn\lib\SBL2E.a(bsp.o)
+ .debug_pubnames
+                0x00000301       0x53 C:\nburn\lib\SBL2E.a(magic.o)
+ .debug_pubnames
+                0x00000354       0x1d C:\nburn\lib\SBL2E.a(atexit.o)
+ .debug_pubnames
+                0x00000371      0x135 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .debug_pubnames
+                0x000004a6       0x26 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .debug_pubnames
+                0x000004cc       0x24 C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .debug_pubnames
+                0x000004f0       0x22 C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .debug_pubnames
+                0x00000512       0x24 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .debug_pubnames
+                0x00000536       0x86 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .debug_pubnames
+                0x000005bc       0xa5 C:\nburn\lib\SBL2E.a(pins.o)
+ .debug_pubnames
+                0x00000661      0x1a3 C:\nburn\lib\SBL2E.a(fec_core.o)
+ .debug_pubnames
+                0x00000804       0x20 C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .debug_pubnames
+                0x00000824       0x29 C:\nburn\lib\SBL2E.a(pin_map.o)
+ .debug_pubnames
+                0x0000084d       0x31 C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .debug_pubnames
+                0x0000087e      0x13b C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .debug_pubnames
+                0x000009b9       0x60 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .debug_pubnames
+                0x00000a19       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .debug_pubnames
+                0x00000a39       0x23 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .debug_pubnames
+                0x00000a5c       0x23 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .debug_pubnames
+                0x00000a7f       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .debug_pubnames
+                0x00000a9f       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .debug_pubnames
+                0x00000abf       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .debug_pubnames
+                0x00000adf       0x7c C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ .debug_pubnames
+                0x00000b5b       0xa5 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .debug_pubnames
+                0x00000c00       0x3d C:\nburn\lib\NetBurner_sc.a(main.o)
+ .debug_pubnames
+                0x00000c3d       0xbf C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .debug_pubnames
+                0x00000cfc       0x6f C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .debug_pubnames
+                0x00000d6b      0x262 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .debug_pubnames
+                0x00000fcd       0xeb C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .debug_pubnames
+                0x000010b8       0x21 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .debug_pubnames
+                0x000010d9       0x22 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .debug_pubnames
+                0x000010fb       0x22 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .debug_pubnames
+                0x0000111d      0x220 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ .debug_pubnames
+                0x0000133d       0x67 C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+ .debug_pubnames
+                0x000013a4       0x52 C:\nburn\lib\SBL2E.a(localio.o)
+ .debug_pubnames
+                0x000013f6       0x5e C:\nburn\lib\SBL2E.a(userflash.o)
+ .debug_pubnames
+                0x00001454       0x66 C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+
+.debug_info     0x00000000    0x21d1e
+ *(.debug_info)
+ .debug_info    0x00000000     0x2f46 ./main.o
+ .debug_info    0x00002f46     0x2399 ./pitr_sem.o
+ .debug_info    0x000052df     0x302d C:\nburn\lib\SBL2E.a(bsp.o)
+ .debug_info    0x0000830c     0x23cb C:\nburn\lib\SBL2E.a(magic.o)
+ .debug_info    0x0000a6d7       0x64 C:\nburn\lib\SBL2E.a(atexit.o)
+ .debug_info    0x0000a73b     0x265c C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .debug_info    0x0000cd97       0xb2 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .debug_info    0x0000ce49     0x23fd C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .debug_info    0x0000f246      0x1ef C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .debug_info    0x0000f435      0x1d9 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .debug_info    0x0000f60e      0x2c4 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .debug_info    0x0000f8d2     0x2613 C:\nburn\lib\SBL2E.a(pins.o)
+ .debug_info    0x00011ee5     0x2b13 C:\nburn\lib\SBL2E.a(fec_core.o)
+ .debug_info    0x000149f8     0x23db C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .debug_info    0x00016dd3       0x95 C:\nburn\lib\SBL2E.a(pin_map.o)
+ .debug_info    0x00016e68      0x32c C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .debug_info    0x00017194      0x4db C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .debug_info    0x0001766f      0x1c1 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .debug_info    0x00017830      0x141 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .debug_info    0x00017971      0x174 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .debug_info    0x00017ae5      0x179 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .debug_info    0x00017c5e       0xdb C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .debug_info    0x00017d39      0x18f C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .debug_info    0x00017ec8      0x19f C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .debug_info    0x00018067      0xa0e C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ .debug_info    0x00018a75      0x60b C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .debug_info    0x00019080      0x180 C:\nburn\lib\NetBurner_sc.a(main.o)
+ .debug_info    0x00019200      0x4cc C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .debug_info    0x000196cc      0x6fa C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .debug_info    0x00019dc6      0xee5 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .debug_info    0x0001acab      0x8e4 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .debug_info    0x0001b58f       0xda C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .debug_info    0x0001b669      0x19d C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .debug_info    0x0001b806      0x1c4 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .debug_info    0x0001b9ca      0xc2b C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ .debug_info    0x0001c5f5      0x1fc C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+ .debug_info    0x0001c7f1     0x23c3 C:\nburn\lib\SBL2E.a(localio.o)
+ .debug_info    0x0001ebb4      0x19d C:\nburn\lib\SBL2E.a(userflash.o)
+ .debug_info    0x0001ed51     0x2fcd C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+
+.debug_abbrev   0x00000000     0x3543
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x45b ./main.o
+ .debug_abbrev  0x0000045b      0x1ba ./pitr_sem.o
+ .debug_abbrev  0x00000615      0x2db C:\nburn\lib\SBL2E.a(bsp.o)
+ .debug_abbrev  0x000008f0      0x176 C:\nburn\lib\SBL2E.a(magic.o)
+ .debug_abbrev  0x00000a66       0x5c C:\nburn\lib\SBL2E.a(atexit.o)
+ .debug_abbrev  0x00000ac2      0x22e C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .debug_abbrev  0x00000cf0       0x74 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .debug_abbrev  0x00000d64      0x16e C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .debug_abbrev  0x00000ed2       0xd5 C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .debug_abbrev  0x00000fa7       0xc6 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .debug_abbrev  0x0000106d      0x154 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .debug_abbrev  0x000011c1      0x27c C:\nburn\lib\SBL2E.a(pins.o)
+ .debug_abbrev  0x0000143d      0x2f1 C:\nburn\lib\SBL2E.a(fec_core.o)
+ .debug_abbrev  0x0000172e      0x150 C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .debug_abbrev  0x0000187e       0x6a C:\nburn\lib\SBL2E.a(pin_map.o)
+ .debug_abbrev  0x000018e8       0xc9 C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .debug_abbrev  0x000019b1      0x154 C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .debug_abbrev  0x00001b05       0xbc C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .debug_abbrev  0x00001bc1       0x91 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .debug_abbrev  0x00001c52       0xbb C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .debug_abbrev  0x00001d0d       0xaa C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .debug_abbrev  0x00001db7       0x8a C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .debug_abbrev  0x00001e41       0x93 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .debug_abbrev  0x00001ed4       0xbb C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .debug_abbrev  0x00001f8f      0x1a0 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ .debug_abbrev  0x0000212f      0x18a C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .debug_abbrev  0x000022b9       0xd1 C:\nburn\lib\NetBurner_sc.a(main.o)
+ .debug_abbrev  0x0000238a      0x1e1 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .debug_abbrev  0x0000256b      0x187 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .debug_abbrev  0x000026f2      0x2e5 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .debug_abbrev  0x000029d7      0x275 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .debug_abbrev  0x00002c4c       0x7b C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .debug_abbrev  0x00002cc7       0x93 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .debug_abbrev  0x00002d5a       0xc4 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .debug_abbrev  0x00002e1e      0x21e C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ .debug_abbrev  0x0000303c       0xe0 C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+ .debug_abbrev  0x0000311c      0x161 C:\nburn\lib\SBL2E.a(localio.o)
+ .debug_abbrev  0x0000327d      0x10c C:\nburn\lib\SBL2E.a(userflash.o)
+ .debug_abbrev  0x00003389      0x1ba C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+
+.debug_line     0x00000000     0x3b8b
+ *(.debug_line)
+ .debug_line    0x00000000      0x480 ./main.o
+ .debug_line    0x00000480       0xad ./pitr_sem.o
+ .debug_line    0x0000052d      0x273 C:\nburn\lib\SBL2E.a(bsp.o)
+ .debug_line    0x000007a0       0x7f C:\nburn\lib\SBL2E.a(magic.o)
+ .debug_line    0x0000081f       0x39 C:\nburn\lib\SBL2E.a(atexit.o)
+ .debug_line    0x00000858      0x1f6 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .debug_line    0x00000a4e       0x50 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .debug_line    0x00000a9e       0xde C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .debug_line    0x00000b7c       0xb5 C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .debug_line    0x00000c31       0xa8 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .debug_line    0x00000cd9       0xe7 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .debug_line    0x00000dc0      0x86a C:\nburn\lib\SBL2E.a(pins.o)
+ .debug_line    0x0000162a      0x2f0 C:\nburn\lib\SBL2E.a(fec_core.o)
+ .debug_line    0x0000191a       0xc7 C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .debug_line    0x000019e1       0x2c C:\nburn\lib\SBL2E.a(pin_map.o)
+ .debug_line    0x00001a0d       0xa7 C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .debug_line    0x00001ab4       0xc2 C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .debug_line    0x00001b76       0x7f C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .debug_line    0x00001bf5       0x75 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .debug_line    0x00001c6a       0x8c C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .debug_line    0x00001cf6       0x8f C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .debug_line    0x00001d85       0x80 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .debug_line    0x00001e05       0x93 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .debug_line    0x00001e98       0x99 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .debug_line    0x00001f31      0x155 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ .debug_line    0x00002086      0x190 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .debug_line    0x00002216       0x76 C:\nburn\lib\NetBurner_sc.a(main.o)
+ .debug_line    0x0000228c      0x361 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .debug_line    0x000025ed      0x14f C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .debug_line    0x0000273c      0x4c3 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .debug_line    0x00002bff      0x49b C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .debug_line    0x0000309a       0x76 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .debug_line    0x00003110       0x9a C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .debug_line    0x000031aa       0xa0 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .debug_line    0x0000324a      0x588 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ .debug_line    0x000037d2       0x92 C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+ .debug_line    0x00003864       0x81 C:\nburn\lib\SBL2E.a(localio.o)
+ .debug_line    0x000038e5       0x8c C:\nburn\lib\SBL2E.a(userflash.o)
+ .debug_line    0x00003971      0x21a C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+
+.debug_frame    0x00000000     0x1e08
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x3c8 ./main.o
+ .debug_frame   0x000003c8       0x6c ./pitr_sem.o
+ .debug_frame   0x00000434      0x104 C:\nburn\lib\SBL2E.a(bsp.o)
+ .debug_frame   0x00000538       0x60 C:\nburn\lib\SBL2E.a(magic.o)
+ .debug_frame   0x00000598       0x2c C:\nburn\lib\SBL2E.a(atexit.o)
+ .debug_frame   0x000005c4      0x118 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .debug_frame   0x000006dc       0x34 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .debug_frame   0x00000710       0x34 C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .debug_frame   0x00000744       0x34 C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .debug_frame   0x00000778       0x30 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .debug_frame   0x000007a8       0xc4 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .debug_frame   0x0000086c       0xb0 C:\nburn\lib\SBL2E.a(pins.o)
+ .debug_frame   0x0000091c      0x1d4 C:\nburn\lib\SBL2E.a(fec_core.o)
+ .debug_frame   0x00000af0       0x2c C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .debug_frame   0x00000b1c       0x50 C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .debug_frame   0x00000b6c       0xec C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .debug_frame   0x00000c58       0x54 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .debug_frame   0x00000cac       0x2c C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .debug_frame   0x00000cd8       0x38 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .debug_frame   0x00000d10       0x30 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .debug_frame   0x00000d40       0x2c C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .debug_frame   0x00000d6c       0x34 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .debug_frame   0x00000da0       0x38 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .debug_frame   0x00000dd8       0xb0 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ .debug_frame   0x00000e88      0x174 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .debug_frame   0x00000ffc       0x50 C:\nburn\lib\NetBurner_sc.a(main.o)
+ .debug_frame   0x0000104c      0x314 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .debug_frame   0x00001360       0x78 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .debug_frame   0x000013d8      0x248 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .debug_frame   0x00001620      0x214 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .debug_frame   0x00001834       0x2c C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .debug_frame   0x00001860       0x34 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .debug_frame   0x00001894       0x40 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .debug_frame   0x000018d4      0x1e0 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ .debug_frame   0x00001ab4       0x4c C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+ .debug_frame   0x00001b00       0x7c C:\nburn\lib\SBL2E.a(localio.o)
+ .debug_frame   0x00001b7c       0x68 C:\nburn\lib\SBL2E.a(userflash.o)
+ .debug_frame   0x00001be4       0x80 C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+ .debug_frame   0x00001c64       0x34 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00001c98      0x144 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/m5213\libgcc.a(fpgnulib.o)
+ .debug_frame   0x00001ddc       0x2c c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-elf/4.2.1/../../../../m68k-elf/lib/m5213\libc.a(lib_a-strlen.o)
+
+.debug_str      0x00000000     0x2f69
+ *(.debug_str)
+ .debug_str     0x00000000      0xddb ./main.o
+                                0xe79 (size before relaxing)
+ .debug_str     0x00000ddb       0xa0 ./pitr_sem.o
+                                0x911 (size before relaxing)
+ .debug_str     0x00000e7b      0x5d5 C:\nburn\lib\SBL2E.a(bsp.o)
+                                0xf20 (size before relaxing)
+ .debug_str     0x00001450       0x32 C:\nburn\lib\SBL2E.a(magic.o)
+                                0x990 (size before relaxing)
+ .debug_str     0x00001482        0x9 C:\nburn\lib\SBL2E.a(atexit.o)
+                                 0x3c (size before relaxing)
+ .debug_str     0x0000148b      0x1f7 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+                                0xb0a (size before relaxing)
+ .debug_str     0x00001682       0x2c C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+                                 0xe8 (size before relaxing)
+ .debug_str     0x000016ae       0x2b C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+                                0x970 (size before relaxing)
+ .debug_str     0x000016d9       0x2f C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+                                0x194 (size before relaxing)
+ .debug_str     0x00001708       0x28 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+                                0x192 (size before relaxing)
+ .debug_str     0x00001730       0xe6 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+                                0x1ce (size before relaxing)
+ .debug_str     0x00001816       0x2c C:\nburn\lib\SBL2E.a(pins.o)
+                                0x9d5 (size before relaxing)
+ .debug_str     0x00001842      0x2f0 C:\nburn\lib\SBL2E.a(fec_core.o)
+                                0xd61 (size before relaxing)
+ .debug_str     0x00001b32       0x1f C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+                                0x95c (size before relaxing)
+ .debug_str     0x00001b51       0x17 C:\nburn\lib\SBL2E.a(pin_map.o)
+                                 0x59 (size before relaxing)
+ .debug_str     0x00001b68       0xb8 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+                                0x16c (size before relaxing)
+ .debug_str     0x00001c20       0x35 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+                                0x106 (size before relaxing)
+ .debug_str     0x00001c55       0x38 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+                                0x11d (size before relaxing)
+ .debug_str     0x00001c8d       0x39 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+                                0x12b (size before relaxing)
+ .debug_str     0x00001cc6       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+                                 0xb6 (size before relaxing)
+ .debug_str     0x00001ce6       0x23 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+                                0x12e (size before relaxing)
+ .debug_str     0x00001d09       0x1b C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+                                0x12a (size before relaxing)
+ .debug_str     0x00001d24       0xa4 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+                                0x503 (size before relaxing)
+ .debug_str     0x00001dc8      0x13b C:\nburn\lib\NetBurner_sc.a(fileio.o)
+                                0x246 (size before relaxing)
+ .debug_str     0x00001f03       0x56 C:\nburn\lib\NetBurner_sc.a(main.o)
+                                0x11b (size before relaxing)
+ .debug_str     0x00001f59      0x181 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+                                0x290 (size before relaxing)
+ .debug_str     0x000020da      0x207 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+                                0x498 (size before relaxing)
+ .debug_str     0x000022e1      0x413 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+                                0x7d0 (size before relaxing)
+ .debug_str     0x000026f4      0x230 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+                                0x315 (size before relaxing)
+ .debug_str     0x00002924       0x23 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+                                 0xd9 (size before relaxing)
+ .debug_str     0x00002947       0x1f C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+                                0x153 (size before relaxing)
+ .debug_str     0x00002966       0x1f C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+                                0x158 (size before relaxing)
+ .debug_str     0x00002985      0x3ed C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+                                0x753 (size before relaxing)
+ .debug_str     0x00002d72       0x5f C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+                                0x18b (size before relaxing)
+ .debug_str     0x00002dd1       0x3a C:\nburn\lib\SBL2E.a(localio.o)
+                                0x969 (size before relaxing)
+ .debug_str     0x00002e0b       0x89 C:\nburn\lib\SBL2E.a(userflash.o)
+                                0x158 (size before relaxing)
+ .debug_str     0x00002e94       0xd5 C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+
+.debug_loc      0x00000000     0x665a
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x907 ./main.o
+ .debug_loc     0x00000907       0xd1 ./pitr_sem.o
+ .debug_loc     0x000009d8      0x2e0 C:\nburn\lib\SBL2E.a(bsp.o)
+ .debug_loc     0x00000cb8       0x7f C:\nburn\lib\SBL2E.a(magic.o)
+ .debug_loc     0x00000d37       0x20 C:\nburn\lib\SBL2E.a(atexit.o)
+ .debug_loc     0x00000d57      0x34f C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .debug_loc     0x000010a6       0x76 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .debug_loc     0x0000111c       0xe3 C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .debug_loc     0x000011ff       0x92 C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .debug_loc     0x00001291       0x56 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .debug_loc     0x000012e7      0x1d6 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .debug_loc     0x000014bd     0x1254 C:\nburn\lib\SBL2E.a(pins.o)
+ .debug_loc     0x00002711      0x52b C:\nburn\lib\SBL2E.a(fec_core.o)
+ .debug_loc     0x00002c3c       0x4b C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .debug_loc     0x00002c87       0x40 C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .debug_loc     0x00002cc7      0x100 C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .debug_loc     0x00002dc7       0x40 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .debug_loc     0x00002e07       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .debug_loc     0x00002e27       0x80 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .debug_loc     0x00002ea7       0x49 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .debug_loc     0x00002ef0       0x40 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .debug_loc     0x00002f30       0xa4 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .debug_loc     0x00002fd4       0x8c C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .debug_loc     0x00003060       0xa0 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ .debug_loc     0x00003100      0x5be C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .debug_loc     0x000036be       0x79 C:\nburn\lib\NetBurner_sc.a(main.o)
+ .debug_loc     0x00003737      0x5ce C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .debug_loc     0x00003d05      0x1a4 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .debug_loc     0x00003ea9      0xc56 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .debug_loc     0x00004aff     0x103c C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .debug_loc     0x00005b3b       0x20 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .debug_loc     0x00005b5b       0xa4 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .debug_loc     0x00005bff       0x8c C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .debug_loc     0x00005c8b      0x712 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ .debug_loc     0x0000639d       0x40 C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+ .debug_loc     0x000063dd       0x94 C:\nburn\lib\SBL2E.a(localio.o)
+ .debug_loc     0x00006471      0x169 C:\nburn\lib\SBL2E.a(userflash.o)
+ .debug_loc     0x000065da       0x80 C:\nburn\lib\SBL2E.a(autoupdate_core.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(NBCTRL.elf elf32-m68k)
+
+.debug_ranges   0x00000000      0xa78
+ .debug_ranges  0x00000000      0x1b8 ./main.o
+ .debug_ranges  0x000001b8       0x20 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .debug_ranges  0x000001d8       0x20 C:\nburn\lib\SBL2E.a(pins.o)
+ .debug_ranges  0x000001f8       0xc8 C:\nburn\lib\SBL2E.a(fec_core.o)
+ .debug_ranges  0x000002c0       0x40 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .debug_ranges  0x00000300       0xb8 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .debug_ranges  0x000003b8       0x58 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .debug_ranges  0x00000410      0x1f8 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .debug_ranges  0x00000608      0x238 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .debug_ranges  0x00000840      0x238 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+
+.comment        0x00000000      0x2be
+ .comment       0x00000000       0x12 ./main.o
+ .comment       0x00000012       0x12 ./pitr_sem.o
+ .comment       0x00000024       0x12 C:\nburn\lib\SBL2E.a(bsp.o)
+ .comment       0x00000036       0x12 C:\nburn\lib\SBL2E.a(magic.o)
+ .comment       0x00000048       0x12 C:\nburn\lib\SBL2E.a(atexit.o)
+ .comment       0x0000005a       0x12 C:\nburn\lib\SBL2E.a(irq_serial_init.o)
+ .comment       0x0000006c       0x12 C:\nburn\lib\SBL2E.a(irq_serial_write_string.o)
+ .comment       0x0000007e       0x12 C:\nburn\lib\SBL2E.a(irq_serial_write.o)
+ .comment       0x00000090       0x12 C:\nburn\lib\SBL2E.a(irq_serial_read.o)
+ .comment       0x000000a2       0x12 C:\nburn\lib\SBL2E.a(irq_serial_char_avail.o)
+ .comment       0x000000b4       0x12 C:\nburn\lib\SBL2E.a(irq_serial_stdio.o)
+ .comment       0x000000c6       0x12 C:\nburn\lib\SBL2E.a(pins.o)
+ .comment       0x000000d8       0x12 C:\nburn\lib\SBL2E.a(fec_core.o)
+ .comment       0x000000ea       0x12 C:\nburn\lib\SBL2E.a(irq_serial_close.o)
+ .comment       0x000000fc       0x12 C:\nburn\lib\SBL2E.a(pin_map.o)
+ .comment       0x0000010e       0x12 C:\nburn\lib\NetBurner_sc.a(ucosmcfc.o)
+ .comment       0x00000120       0x12 C:\nburn\lib\NetBurner_sc.a(ucos.o)
+ .comment       0x00000132       0x12 C:\nburn\lib\NetBurner_sc.a(ucosmain.o)
+ .comment       0x00000144       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_OSTimeDly.o)
+ .comment       0x00000156       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_OSChangePrio.o)
+ .comment       0x00000168       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_OSTaskDelete.o)
+ .comment       0x0000017a       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemInit.o)
+ .comment       0x0000018c       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPend.o)
+ .comment       0x0000019e       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_OSSemPost.o)
+ .comment       0x000001b0       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_locks.o)
+ .comment       0x000001c2       0x12 C:\nburn\lib\NetBurner_sc.a(fileio.o)
+ .comment       0x000001d4       0x12 C:\nburn\lib\NetBurner_sc.a(main.o)
+ .comment       0x000001e6       0x12 C:\nburn\lib\NetBurner_sc.a(serial_smart_trap.o)
+ .comment       0x000001f8       0x12 C:\nburn\lib\NetBurner_sc.a(autoupdate.o)
+ .comment       0x0000020a       0x12 C:\nburn\lib\NetBurner_sc.a(ipcore.o)
+ .comment       0x0000021c       0x12 C:\nburn\lib\NetBurner_sc.a(nbiprintf.o)
+ .comment       0x0000022e       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritInit.o)
+ .comment       0x00000240       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritEnter.o)
+ .comment       0x00000252       0x12 C:\nburn\lib\NetBurner_sc.a(ucos_OSCritLeave.o)
+ .comment       0x00000264       0x12 C:\nburn\lib\NetBurner_sc.a(dhcp.o)
+ .comment       0x00000276       0x12 C:\nburn\lib\NetBurner_sc.a(scratch_block.o)
+ .comment       0x00000288       0x12 C:\nburn\lib\SBL2E.a(localio.o)
+ .comment       0x0000029a       0x12 C:\nburn\lib\SBL2E.a(userflash.o)
+ .comment       0x000002ac       0x12 C:\nburn\lib\SBL2E.a(autoupdate_core.o)
